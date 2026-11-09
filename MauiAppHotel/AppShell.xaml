@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Shell xmlns="http://microsoft.com"
+       xmlns:x="http://microsoft.com"
+       xmlns:local="clr-namespace:MauiAppHotel"
+       xmlns:views="clr-namespace:MauiAppHotel.Views"
+       x:Class="MauiAppHotel.AppShell"
+       Shell.FlyoutBehavior="Disabled">
+
+    <TabBar>
+        <Tab Title="Início">
+            <ShellContent ContentTemplate="{DataTemplate local:MainPage}" Route="MainPage" />
+        </Tab>
+        <Tab Title="Sobre">
+            <ShellContent ContentTemplate="{DataTemplate views:SobrePage}" Route="SobrePage" />
+        </Tab>
+    </TabBar>
+
+</Shell>

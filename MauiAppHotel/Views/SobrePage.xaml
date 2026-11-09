@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://microsoft.com"
+             xmlns:x="http://microsoft.com"
+             x:Class="MauiAppHotel.Views.SobrePage"
+             Title="Sobre o App">
+    
+    <VerticalStackLayout Padding="30" Spacing="20" HorizontalOptions="Center" VerticalOptions="Center">
+        
+        <Label Text="Informações do Desenvolvedor" 
+               FontSize="22" 
+               FontAttributes="Bold" 
+               HorizontalOptions="Center" 
+               TextColor="DarkCyan"/>
+
+        <Label Text="Desenvolvedor: BEATRIZ" 
+               FontSize="18" 
+               HorizontalOptions="Center"/>
+
+        <Label Text="Ano de Desenvolvimento: 2026" 
+               FontSize="16" 
+               HorizontalOptions="Center" 
+               TextColor="DimGray"/>
+
+        <Label Text="Aplicativo de reserva de hotel desenvolvido para a atividade do Fichário (Agenda 13) na disciplina de Desenvolvimento de Sistemas II." 
+               FontSize="14" 
+               HorizontalTextAlignment="Center" 
+               LineBreakMode="WordWrap"
+               Margin="0,20,0,0"/>
+               
+    </VerticalStackLayout>
+</ContentPage>
